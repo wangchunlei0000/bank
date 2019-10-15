@@ -1,0 +1,44 @@
+input[type=text],input[type=password],select{
+	width:200px;
+	height:35px;
+	border-radius:10px;
+	margin-top:4px;
+	margin-bottom:4px;
+	border:1px solid:#ccc;
+	background-color:transparent;
+	transtion:border-color ease-in-out .17s,  box-shadow ease-in-out .17s;
+}
+.bu{
+	width :80px;
+	height:38px;
+	background:#0086DB;
+	border:0;
+	border-radius:10px;
+	margin-top:35px;
+	color:white;
+	font-size:15px;
+	cursor:pointer;
+}
+input:focus{
+	border-color:#66AFE9 !important;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.75), 0 0 8px rgba(102,175,233,0.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.75), 0 0 8px rgba(102,175,233,0.6);
+}
+body{
+  font-weight:bold;
+  font-family:幼圆;
+  text:20px;
+}
+table{
+	font-size:25px;
+}
+::-webkit-input-placeholder{
+	text-indent:20px;
+	font-size:16px;
+}
+::-moz-input-placeholder{
+	text-indent:20px;
+	font-size:16px;
+}
